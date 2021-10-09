@@ -8,7 +8,9 @@ However, it can be difficult to generate accurate estimates for especially rare 
 
 The clustering methodology I proposed during my internship at NASA was based on the correlations of clustering variables with the homogeneity of extreme precipitation. Essentially, site characteristics (such as elevation, average precipitation, proportion of days with rain) were selected based on how well differences in this variable predicted poor homogeneity. This methodology had the effect of vastly improving cluster homogeneity compared to previous clustering methods, which improved the accuracy of the fitted models while continuing to avoid issues with creating and evaluating clusters with the same test.
 
-Additionally, by using precomputed L-moments (rather than maximum likelihood estimation) to perform model fitting, the overall process required ~50 times less compute resources while simultaneously providing higher spatial resolution. As an example, precipitation accumulations for 20 and 50-year average recurrence intervals around the Zhengzhou, China region and the average recurrence interval estimates for the flooding on July 20th, 2021 is shown below. 
+Additionally, by using precomputed L-moments (rather than maximum likelihood estimation) to perform model fitting, the overall process required ~50 times less compute resources while simultaneously providing higher spatial resolution. 
+
+An example of this framework being applied to the Zhengzhou, China 2021 floods is shown below. The top two graphs show estimated precipitation totals corresponding to 20 and 50-year average recurrence intervals, and the bottom two show the preciptiation totals on the peak day, July 20th, and the corresponding average recurrence interval estimates.
 
 ![](https://github.com/jxiong21029/IMERG-Frequency-Analysis/blob/main/zhengzhou_ari_plots.png)
 
