@@ -10,7 +10,7 @@ The clustering methodology I proposed during my internship at NASA was based on 
 
 Additionally, by using precomputed L-moments (rather than maximum likelihood estimation) to perform model fitting, the overall process required ~50 times less compute resources while simultaneously providing higher spatial resolution. 
 
-An example of this framework being applied to the Zhengzhou, China 2021 floods is shown below. The top two graphs show estimated precipitation totals corresponding to 20 and 50-year average recurrence intervals, and the bottom two show the preciptiation totals on the peak day, July 20th, and the corresponding average recurrence interval estimates.
+An example of this framework being applied is shown below. In July 2021, Zhengzhou, China experienced devastating floods during a period of prolonged heavy rainfall. The top two graphs show estimated precipitation totals corresponding to 20 and 50-year average recurrence intervals for the region, and the bottom two show the preciptiation totals on the peak day, July 20th, and the corresponding average recurrence interval estimates.
 
 ![](https://github.com/jxiong21029/IMERG-Frequency-Analysis/blob/main/zhengzhou_ari_plots.png)
 
